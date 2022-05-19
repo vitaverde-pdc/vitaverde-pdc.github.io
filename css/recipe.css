@@ -1,0 +1,40 @@
+.recipe {
+    padding: 2rem 3rem;
+}
+
+.recipe-picture {
+}
+
+.recipe-picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+h2,
+h4 {
+    font-family: "Aesthetic Violet";
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+span {
+    font-style: italic;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+li {
+    padding: 0.2rem 0;
+    text-align: justify;
+}

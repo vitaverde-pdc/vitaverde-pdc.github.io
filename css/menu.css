@@ -1,0 +1,230 @@
+h2,
+h3 {
+    font-family: "Aesthetic Violet";
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5 {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot1:hover,
+.dot2:hover,
+.dot3:hover,
+.dot4:hover,
+.dot5:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container-cards-products {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 2rem 3rem;
+}
+
+.product1,
+.product2 {
+    grid-row: 1;
+}
+
+.product3,
+.product4 {
+    grid-row: 2;
+}
+
+.product5 {
+    grid-row: 3;
+}
+
+.card-product img {
+    max-width: 100%;
+
+    border-radius: 15px;
+}
+
+.name-product {
+    text-align: center;
+    font-size: 115%;
+    padding: 1rem 0;
+}
+
+.description-product {
+    display: none;
+}
+
+.cta {
+    border-width: 0;
+    border-radius: 15px;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #20603c;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 150%;
+}
+
+.cta:hover {
+    background-color: #133a24;
+}
+
+.s-paymentmethods {
+    padding: 2rem 3rem;
+}
+
+.s-paymentmethods img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-paymentmethods {
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 2rem 0;
+}
+
+.main-pm1 {
+    grid-row: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-pm2 {
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-pm3 {
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-pm1,
+.main-pm2,
+.main-pm3 {
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 546px) {
+    .container-cards-products {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .product1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .product2 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .product3 {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .product4 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .product5 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+}

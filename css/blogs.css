@@ -1,0 +1,51 @@
+.container-article {
+    padding: 2rem 3rem;
+}
+
+h2,
+h3,
+.date {
+    text-align: center;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 160%;
+    padding: 1rem 0;
+}
+
+.date {
+    font-size: 125%;
+    padding: 2rem 0;
+}
+
+.article-image {
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+.article-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+    font-size: 120%;
+}
+
+p a {
+    text-decoration: none;
+    color: #20603c;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+}

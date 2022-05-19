@@ -1,0 +1,37 @@
+h2 {
+    font-size: 300%;
+    text-align: center;
+}
+
+.container-articles {
+    padding: 2rem 3rem;
+}
+
+.article {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #20603c;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 140%;
+    text-align: left;
+    padding: 0.75rem 0;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Aesthetic Violet";
+}
+
+.title a:hover {
+    color: #f1f1f1;
+}
+
+.date {
+    color: #fff;
+    font-size: 110%;
+    font-weight: bold;
+}

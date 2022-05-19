@@ -1,0 +1,120 @@
+.container-follow {
+    padding: 2rem 3rem;
+}
+
+h2.p-cta-txt {
+    font-family: "Aesthetic Violet";
+    text-align: center;
+    font-size: 290%;
+}
+
+svg {
+    width: 2.5rem;
+    fill: #fff;
+}
+
+.icon svg {
+    fill: initial;
+}
+
+.list-socialmedia {
+    list-style: none;
+}
+
+.item-socialmedia {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.item-socialmedia a {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background: red;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.item-socialmedia a span:first-child {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-socialmedia a span:last-child {
+    grid-column: 2;
+    margin-left: 16%;
+    font-size: 110%;
+}
+
+.wa a {
+    background-color: #25d366;
+}
+
+.wa a:hover {
+    background-color: #1cad52;
+}
+
+.ig a {
+    background-color: #e1306c;
+}
+
+.ig a:hover {
+    background-color: #b52656;
+}
+
+.fb a {
+    background-color: #4267b2;
+}
+
+.fb a:hover {
+    background-color: #365492;
+}
+
+.tk a {
+    background-color: #1e1e1e;
+}
+
+.tk a:hover {
+    background-color: #010101;
+}
+
+.pt a {
+    background-color: #e60023;
+}
+
+.pt a:hover {
+    background-color: #c4001d;
+}
+
+.tw a {
+    background-color: #1da1f2;
+}
+
+.tw a:hover {
+    background-color: #1788cd;
+}
+
+@media screen and (min-width: 546px) {
+    .list-socialmedia {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .item-socialmedia {
+        max-width: 70%;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .item-socialmedia a {
+        margin: auto;
+        width: 70%;
+    }
+}

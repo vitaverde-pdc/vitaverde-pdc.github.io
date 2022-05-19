@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="La mejor comida vegetariana de Playa del Carmen, saludable y accesible" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/widget-wa.css" />
+        <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+        <title>Vita Verde</title>
+    </head>
+    <body>
+        <header>
+            <h1>Vita Verde</h1>
+            <nav class="topnav" id="myTopnav">
+                <a href="index.html" class="active">
+                    <img src="img/favicon.jpg" />
+                </a>
+                <a href="index.html">Inicio</a>
+                <a href="menu.html">Menú</a>
+                <a href="recetas.html">Recetas</a>
+                <a href="blog.html">Blog</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="siguenos.html">Síguenos</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
+                        ></path>
+                    </svg>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <section class="s-introdution">
+                <div class="box-text desktop-col mobile-row">
+                    <p>
+                        Ofrecemos frescura, calidad y sazón en este encuentro de ensaladas fusión México-Italia donde tu paladar no podrá resistirse a las notas de la primera
+                    </p>
+                </div>
+                <div class="box-image desktop-col mobile-row">
+                    <img src="img/img-01.jpg" alt="#" />
+                </div>
+            </section>
+
+            <section class="s-work">
+                <h2>Qué hacemos</h2>
+                <div class="container-cards">
+                    <div class="card card-1 desktop-col mobile-row">
+                        <img src="img/img-02.jpg" alt="#" />
+                        <p><em>Producimos platillos…</em> con ingredientes frescos y asequibles de temporada</p>
+                    </div>
+                    <div class="card card-2 desktop-col mobile-row">
+                        <img src="img/img-03.jpg" alt="#" />
+                        <p><em>Para una vida saludable…</em> deleita la frescura de nuestros vegetales. Aún sin ser vegetariano en nuestra mesa no pasarás hambre</p>
+                    </div>
+                    <div class="card card-3 desktop-col mobile-row">
+                        <img src="img/img-04.jpg" alt="#" />
+                        <p><em>Nuestros platillos…</em> se basan en un menú con una amplia variedad de alimentos que sacian, están deliciosos y son sanos</p>
+                    </div>
+                </div>
+            </section>
+            <section class="s-loyalty">
+                <div class="container-image">
+                    <img src="img/img-05.jpg" alt="#" />
+                </div>
+                <div class="container-text">
+                    <h2>Por qué nos amarás</h2>
+                    <p>
+                        Nunca ha habido un mejor momento para dejar de consumir alimentos de origen animal. Esto significa trabajar con la naturaleza. Estamos entrando en un momento fantástico para la comida playense
+                    </p>
+                    <ul>
+                        <li>Delicioso</li>
+                        <li>Ético</li>
+                        <li>Sostenible</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="s-recipes">
+                <h2>Prueba con nosotros</h2>
+                <h3>Nuestras recetas favoritas</h3>
+                <div class="box-images-gallery">
+                    <div class="mySlides">
+                        <a href="recetas/pizza-con-calabacitas-y-champinones.html">
+                            <img src="img/img-06.jpg" alt="#" />
+                        </a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="recetas/croquetas-de-brocoli.html">
+                            <img src="img/img-07.jpg" alt="#" />
+                        </a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="recetas/pisto-machego.html">
+                            <img src="img/img-08.jpg" alt="#" />
+                        </a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="recetas/ensalada-de-papas-cambray.html">
+                            <img src="img/img-09.jpg" alt="#" />
+                        </a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="recetas/palomitas-de-maiz-con-chipotle.html">
+                            <img src="img/img-10.jpg" alt="#" />
+                        </a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="recetas/salsa-de-garbanzo.html">
+                            <img src="img/img-11.jpg" alt="#" />
+                        </a>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/img-06.jpg" onclick="currentSlide(1)" alt="Pizza con calabacitas y champiñones" />
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/img-07.jpg" onclick="currentSlide(2)" alt="Croquetas de brócoli" />
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/img-08.jpg" onclick="currentSlide(3)" alt="Pisto manchego" />
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/img-09.jpg" onclick="currentSlide(4)" alt="Ensalada de papas cambray" />
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/img-10.jpg" onclick="currentSlide(5)" alt="Palomitas de maíz con chipotle" />
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/img-11.jpg" onclick="currentSlide(6)" alt="Salsa de garbanzo" />
+                        </div>
+                    </div>
+                </div>
+                <button class="cta">
+                    <a href="recetas.html">Más recetas</a>
+                </button>
+            </section>
+            <section class="s-paymentmethods">
+                <h2>Puedes realizar tus pagos con...</h2>
+                <div class="section-paymentmethods s-pm">
+                    <div class="main-pm1">
+                        <div class="pm1">
+                            <img src="img/visa.png" />
+                        </div>
+                        <div class="pm2">
+                            <img src="img/mastercard.png" />
+                        </div>
+                        <div class="pm3">
+                            <img src="img/codi.png" />
+                        </div>
+                    </div>
+                    <div class="main-pm2">
+                        <div class="pm4">
+                            <img src="img/oxxopay.png" />
+                        </div>
+                        <div class="pm5">
+                            <img src="img/paypal.png" />
+                        </div>
+                    </div>
+                    <div class="main-pm3">
+                        <div class="pm6">
+                            <img src="img/bancoazteca.png" />
+                        </div>
+                        <div class="pm7">
+                            <img src="img/bbva.png" />
+                        </div>
+                        <div class="pm8">
+                            <img src="img/santander.png" />
+                        </div>
+                        <div class="pm9">
+                            <img src="img/hsbc.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s-socialmedia">
+                <h2>¡Síguenos en nuestras Redes Sociales!</h2>
+                <ul>
+                    <li class="item-fb">
+                        <a href="https://www.facebook.com/Vita-Verde-101301955820339/">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-ig">
+                        <a href="https://www.instagram.com/vita_verde.pdc/">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-tw">
+                        <a href="https://twitter.com/vitaverde_pdc?t=0MfH4dKeBu4YhYEJYuRetA&s=09">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-wab">
+                        <a href="https://api.whatsapp.com/send?phone=+529842550919&text=Hola,%20me%20gustar%C3%ADa%20encargar%20un%20pedido">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-tk">
+                        <a href="https://vm.tiktok.com/ZMLupxRc9">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-pin">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p class="webiste-credits">
+                &copy; 2022 Vita Verde. Todos los Derechos Reservados
+            </p>
+        </footer>
+
+        <div id="whatsapp-chat" class="hide">
+            <div class="header-chat">
+                <div class="head-home"><h3>Vita Verde</h3></div>
+
+                <div class="get-new"></div>
+            </div>
+
+            <div class="start-chat">
+                <div class="first-msg"><span>¡Hola! ¿Qué puedo hacer por ti?</span></div>
+                <div class="blanter-msg"><textarea id="chat-input" placeholder="Escribe un mensaje" maxlength="120" row="1"></textarea> <a href="#" onclick="enviar_mensaje();" id="send-it">Enviar</a></div>
+            </div>
+            <div id="get-number">529842550919</div>
+            <a class="close-chat" onclick="cerrar_chat();" href="#">×</a>
+        </div>
+
+        <a class="blantershow-chat" onclick="mostrar_chat();" href="#" title="Show Chat">
+            <svg width="20" viewBox="0 0 24 24">
+                <defs />
+                <path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z" />
+                <path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z" />
+                <path
+                    fill="#fafafa"
+                    d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"
+                />
+            </svg>
+            Chat
+        </a>
+
+        <script src="js/slideshowgallery.js"></script>
+        <script src="js/responsivenavigationbar.js"></script>
+        <script src="js/widget-wa.js"></script>
+    </body>
+</html>
