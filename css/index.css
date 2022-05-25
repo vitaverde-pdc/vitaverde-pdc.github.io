@@ -441,4 +441,9 @@ h3 {
     .s-socialmedia h2 {
         font-size: 250%;
     }
+   
+    .section-paymentmethods {
+	margin: auto;
+        max-width: 40%;
+    }
 }
