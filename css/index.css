@@ -323,6 +323,15 @@ h3 {
     width: 2rem;
 }
 
+.politics {
+    margin: 1rem auto 1.5rem auto;
+    font-size: 120%;
+}
+
+.politics a {
+    color: rgb(116, 116, 116);
+}
+
 @media screen and (min-width: 546px) {
     .topnav {
         display: flex;

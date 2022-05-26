@@ -197,6 +197,46 @@ h2 {
     width: 100%;
 }
 
+.s-homedeliverys {
+    max-width: 70%;
+    margin: auto;
+}
+.s-homedeliverys h2 {
+    padding: 3rem 0;
+}
+
+.homedeliverys-imgs {
+    list-style: none;
+    display: flex;
+}
+
+.homedeliverys-methods {
+    max-width: 30%;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-homedeliverys img {
+    max-width: 100%;
+}
+
+.s-openinghours {
+    padding: 3rem 0;
+}
+
+.schedule {
+    max-width: 70%;
+    font-size: 200%;
+    margin: auto;
+    list-style: none;
+}
+
+.days {
+    text-align: center;
+}
+
 @media screen and (min-width: 546px) {
     .container-cards-products {
         grid-template-rows: 1fr 1fr;
@@ -235,4 +275,13 @@ h2 {
         margin: auto;
 	max-width: 40%;
     }
+}
+
+.politics {
+    margin: 1rem auto 1.5rem auto;
+    font-size: 120%;
+}
+
+.politics a {
+    color: rgb(116, 116, 116);
 }

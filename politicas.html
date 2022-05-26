@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="La mejor comida vegetariana de Playa del Carmen, saludable y accesible" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/widget-wa.css" />
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+    <title>Vita Verde</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vita Verde</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">
+                <img src="img/favicon.jpg" />
+            </a>
+            <a href="index.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="recetas.html">Recetas</a>
+            <a href="blog.html">Blog</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="siguenos.html">Síguenos</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z">
+                    </path>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="container-politics">
+            <h2>Políticas</h2>
+            <ul class="list-politics">
+                <li class="item-politics">
+                    <a href="politicas/politicas-de-metodos-de-pago.html">Politícas de Métodos de Pago</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-de-venta-online.html">Políticas de Venta</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-de-descuentos.html">Políticas de Descuentos</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-venta-a-mayoreo.html">Políticas de Venta a Mayoreo</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-de-leyes-e-impuestos.html">Políticas de Leyes e Impuestos</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-de-cambios-y-devoluciones.html">Politícas de Cambios y Devoluciones</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-de-horarios.html">Politícas de Horarios de Apertura y Cierre</a>
+                </li>
+                <li class="item-politics">
+                    <a href="politicas/politicas-generales.html">Políticas Generales</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p class="webiste-credits">
+            &copy; 2022 Vita Verde. Todos los Derechos Reservados
+        </p>
+    </footer>
+
+    <div id="whatsapp-chat" class="hide">
+        <div class="header-chat">
+            <div class="head-home">
+                <h3>Vita Verde</h3>
+            </div>
+
+            <div class="get-new"></div>
+        </div>
+
+        <div class="start-chat">
+            <div class="first-msg"><span>¡Hola! ¿Qué puedo hacer por ti?</span></div>
+            <div class="blanter-msg"><textarea id="chat-input" placeholder="Escribe un mensaje" maxlength="120"
+                    row="1"></textarea> <a href="#" onclick="enviar_mensaje();" id="send-it">Enviar</a></div>
+        </div>
+        <div id="get-number">529842550919</div>
+        <a class="close-chat" onclick="cerrar_chat();" href="#">×</a>
+    </div>
+
+    <a class="blantershow-chat" onclick="mostrar_chat();" href="#" title="Show Chat">
+        <svg width="20" viewBox="0 0 24 24">
+            <defs />
+            <path fill="#eceff1"
+                d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z" />
+            <path fill="#4caf50"
+                d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z" />
+            <path fill="#fafafa"
+                d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z" />
+        </svg>
+        Chat
+    </a>
+
+    <script src="js/slideshowgallery.js"></script>
+    <script src="js/responsivenavigationbar.js"></script>
+    <script src="js/widget-wa.js"></script>
+</body>
+
+</html>
