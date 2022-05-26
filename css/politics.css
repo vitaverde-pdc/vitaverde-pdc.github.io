@@ -1,0 +1,18 @@
+.container-politics {
+    margin: auto;
+    max-width: 70%;
+}
+
+.item-politics {
+    margin: 2rem 0;
+}
+
+.subitem-politics {
+    margin: 1rem 2em;
+}
+
+h2 {
+    margin: 2rem 0;
+    font-size: 300%;
+    text-align: center;
+}

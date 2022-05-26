@@ -1,11 +1,12 @@
 .about-us {
-    padding: 2rem 3rem;
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
 }
 
 h2,
 h3 {
     font-family: "Aesthetic Violet";
-    text-align: center;
 }
 
 h2 {
@@ -20,6 +21,5 @@ h3 {
 
 p {
     font-size: 100%;
-    text-align: justify;
     padding: 0.5rem 0;
 }

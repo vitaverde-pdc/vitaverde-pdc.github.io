@@ -253,6 +253,23 @@ h3 {
     margin: 2rem 0;
 }
 
+.s-openinghours {
+    background-color: #20603c;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.schedule {
+    max-width: 70%;
+    font-size: 200%;
+    margin: auto;
+    list-style: none;
+}
+
+.days {
+    text-align: center;
+}
+
 .main-pm1 {
     grid-row: 1;
     grid-template-columns: 1fr 1fr 1fr;
